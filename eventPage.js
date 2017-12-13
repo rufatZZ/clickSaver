@@ -1,22 +1,22 @@
 // this is for context menu, first you uncomment permissions:{ contextMenus } in manifest.json
 
-var contextMenuItem = {
-    "id": "clickSaver",
-    "title": "ClickSaver",
-    "contexts": [""]
-};
+// var contextMenuItem = {
+//     "id": "clickSaver",
+//     "title": "ClickSaver",
+//     "contexts": [""]
+// };
 
-chrome.contextMenus.create(contextMenuItem);
+// chrome.contextMenus.create(contextMenuItem);
 
 
-chrome.contextMenus.onClicked.addListener(function(clickData) {
+// chrome.contextMenus.onClicked.addListener(function(clickData) {
 
-    if (clickData.menuItemId == "downloadit" && clickData.exampleSelection) {
+//     if (clickData.menuItemId == "downloadit" && clickData.exampleSelection) {
 
-        //your code
+//         //your code
 
-    }
-});
+//     }
+// });
 
 
 chrome.runtime.onMessage.addListener(
