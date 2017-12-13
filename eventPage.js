@@ -1,4 +1,5 @@
 // this is for context menu, first you uncomment permissions:{ contextMenus } in manifest.json
+
 var contextMenuItem = {
     "id": "clickSaver",
     "title": "ClickSaver",

@@ -17,8 +17,8 @@
     }],
     "permissions": [
         "tabs",
-        "background",
         // "contextMenus",
+        "background",
         "downloads"
     ]
 }
