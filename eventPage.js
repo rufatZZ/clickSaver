@@ -1,3 +1,24 @@
+// this is for context menu, first you uncomment permissions:{ contextMenus } in manifest.json
+
+var contextMenuItem = {
+    "id": "clickSaver",
+    "title": "ClickSaver",
+    "contexts": [""]
+};
+
+chrome.contextMenus.create(contextMenuItem);
+
+
+chrome.contextMenus.onClicked.addListener(function(clickData) {
+
+    if (clickData.menuItemId == "downloadit" && clickData.exampleSelection) {
+
+        //your code
+
+    }
+});
+
+
 chrome.runtime.onMessage.addListener(
     function(arg, sender, sendResponse) {
         var args = arg.collection;
