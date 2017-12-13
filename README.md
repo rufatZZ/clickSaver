@@ -1,0 +1,2 @@
+# clickSaver
+Simple Chrome Extension
